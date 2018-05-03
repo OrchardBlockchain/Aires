@@ -1,0 +1,17 @@
+.about-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.neko-logo {
+    width: 400px;
+}
+
+/* Small screens */
+@media all and (max-width: 800px) {
+    .neko-logo {
+        width: 90%;
+    }
+}

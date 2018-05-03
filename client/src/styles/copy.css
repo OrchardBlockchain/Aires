@@ -1,0 +1,64 @@
+.message-container {
+    width: 80%;
+    margin: 1rem auto;
+    margin-top: 20%;
+    text-align: center;
+}
+
+#firstCopy {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
+#secondCopy {
+    font-weight: 400;
+}
+
+#trySearching {
+    display: block;
+    width: 100%;
+}
+
+.typewriter {
+    flex-grow: 3;
+}
+
+.typewriter-child {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+#caption {
+    margin-left: 7px;
+}
+
+#cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    to{opacity: .0;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .message-container {
+        margin-top: 30%;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .message-container {
+        margin-top: 10%;
+    }
+} 
+
+
+/* Small screens */
+@media all and (max-width: 800px) {
+    .message-container {
+        margin-top: 45%;
+    }
+}

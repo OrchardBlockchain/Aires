@@ -1,0 +1,159 @@
+h1, h2, h3, h4, h5 {
+    margin: 7px 0;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.product-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: flex-start;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.product-item {
+    border: 1px solid #F2F2F2;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 1.5em;
+    margin-right: 5px;
+    padding: 1em;
+    width: calc(98%/4);
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.product-details {
+    min-height: 100%;
+    margin-bottom: -50px;
+    
+}
+
+.product-details:after {
+    content: '';
+    display: block;
+}
+
+.product-item:hover {
+    border: 1px solid #DEDEDE;
+}
+
+a, h3, h4, h5 {
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    min-height: 200px;
+}
+
+.product-item
+.product-price,
+.product-details:after {
+    color: var(--pricecolor);
+    height: 50px;
+}
+
+.no-results {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.result-number {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 1.1em;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 45px;
+}
+
+.imageContainer {
+    height: 250px;
+    overflow: hidden;
+}
+
+.titleContainer, brandContainer {
+    min-height: 40px;
+}
+
+.product-brand {
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-details .product-store {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+/* Small screens */
+@media all and (max-width: 800px) {
+    .product-list {
+        flex-direction: column;
+        flex-flow: column wrap;
+    }
+
+    .product-item {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+    }
+
+    .imageContainer {
+        min-height: 120px;
+    }
+
+    .product-item img {
+        width: 60%;
+    }
+
+    .product-title {
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .product-brand {
+        font-size: 1.1em;
+    }
+
+    .product-details .product-store {
+        font-size: 1em;
+    }
+
+}
