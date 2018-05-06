@@ -13,84 +13,26 @@
     font-family: 'Lato', serif;
 }
 
-#content {
-    margin: 3em auto;
-    margin-top: 1em;
-}
-
-.main {
-    margin: 0 auto;
-}
-
-.content > h3, h4, h5 {
-    font-weight: 300;
-}
-
-.standard-width {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#overlay {
-    /* full screen */
-    width: 100vw;
-    height: 100vh;
-    /* transparent black */
-    background: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    top: 0;
-    left: 0;
-    /* middle layer, i.e. appears below the sidebar */
-    z-index: 98;
-}
-
-.noShow {
-    display: none;
-}
-
-.transparentText {
-    color: transparent;
-}
-
-/*
-    Priority Button Styles
-*/
-
-.priority {
-    width: 80%;
-    display: block;
-    margin-top: 10px;
-    font-size: 1rem;
-    font-weight:100;
-}
-
-.priority-string {
-    margin-right: 10px;
-}
-
-@media only screen and (min-width: 1280px) {
-    .main {
-        width: 1140px;
-    }
-}
-
-/* Small screens */
-@media all and (max-width: 800px) {
-    .content {
-        width: 95%;
-        margin-top: 10px;
+#app {
+      background-color:#525174;  
+      height: 100%;
+      margin: 0;
+      padding: 1px 0 0 0;
     }
 
-    .transparentText {
-        color: inherit;
+.login-div {
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+
     }
-}
 
-/* random reuseable classes */
 
-.divider {
-    border-left: 1px solid #dae0e5;
-    height: 40px;
-    margin-top: 5px;
-    margin-right: 10px;
-}
+html, body { height: 100%; } 
+
+
