@@ -27,6 +27,7 @@ class RegisterPage extends React.Component {
         <Button>Register</Button> 
         </Form>
         </div>
+        
            )
     }
 }

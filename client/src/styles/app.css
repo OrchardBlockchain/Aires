@@ -1,12 +1,9 @@
 :root {
-    --maincolor: #F9D8CA;
-    --pricecolor: #AD655F;
-    --logocolor: #615C60; /* Volcanic Glass */
-    --backgroundcolor: #FCFCFC; /* OFF WHITE*/
-    --nostalgiaRose: #A67A84;
-    --opalGray: #A49E9D;
-    --puritanGray: #A4B0AC;
-    --silverGray: #C6BFB8;
+    --independence: #525174; /*purpleish blue */
+    --pineapple: #513B56; /* darker blue*/
+    --steelblue: #348AA7; /* lighter blue */
+    --aquiamarine: #5DD39E; /* greenish */
+    --springbud: #BCE784; /*yellow ish*/
 }
 
 * {
@@ -14,7 +11,7 @@
 }
 
 #app {
-      background-color:#525174;  
+      background-color: var(--independence);  
       height: 100%;
       margin: 0;
       padding: 1px 0 0 0;
