@@ -7,7 +7,7 @@ class RegisterPage extends React.Component {
     render () {
         return (
 
-    <div className="login-div">
+    <div className="content">
       <Form>
         <FormGroup>
           <Input type="name" name="name" id="email" placeholder="Full Name" />
